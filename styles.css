@@ -17,7 +17,7 @@ body {
 }
 
 #cat-image {
-  width: 200px;
+  width: 500px;
   transition: transform 0.3s ease;
 }
 
