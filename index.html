@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Cat Adventures</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Healthy Cat Adventures</h1>
+  <div class="container">
+    <div class="cat">
+      <img id="cat-image" src="images/cat.png" alt="Healthy Cat">
+      <div id="health-meter">Health: 50%</div>
+    </div>
+    <div class="food-selection">
+      <h2>Feed the Cat</h2>
+      <button onclick="feedCat('apple')">Apple (50 cal)</button>
+      <button onclick="feedCat('carrot')">Carrot (30 cal)</button>
+      <button onclick="feedCat('burger')">Burger (300 cal)</button>
+      <button onclick="feedCat('soda')">Soda (150 cal)</button>
+      <button onclick="feedCat('candy')">Candy (200 cal)</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
