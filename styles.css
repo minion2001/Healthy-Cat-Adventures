@@ -22,7 +22,7 @@ body {
 }
 
 #health-meter {
-  font-size: 18px;
+  font-size: 50px;
   color: green;
   margin-top: 10px;
 }
