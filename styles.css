@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cat {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#cat-image {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+#health-meter {
+  font-size: 18px;
+  color: green;
+  margin-top: 10px;
+}
+
+.food-selection {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
