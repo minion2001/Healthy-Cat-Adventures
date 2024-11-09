@@ -17,12 +17,12 @@ body {
 }
 
 #cat-image {
-  width: 500px;
+  width: 2000px;
   transition: transform 0.3s ease;
 }
 
 #health-meter {
-  font-size: 50px;
+  font-size: 18px;
   color: green;
   margin-top: 10px;
 }
